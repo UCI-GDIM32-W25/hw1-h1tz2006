@@ -9,7 +9,7 @@ Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lectur
 
 
 Write your Devlog here!
-
+When developing HW1, the player movement part is one of the core functions. I implemented smooth movement logic through the PlayerController class,  I used Unity's Input.GetAxis() method to capture input on both the horizontal and vertical axes, allowing the player to achieve smooth movement through keyboard input. Additionally, to ensure natural movement, I incorporated the Transform.Translate method to update the player's position in real time based on input values. This implementation not only fit the initial plan but also allowed me to quickly locate and optimize the code through annotated guidelines, thus ensuring the integrity and stability of the movement functionality.
 
 ## Open-Source Assets
 If you added any other outside assets, list them here!
